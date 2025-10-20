@@ -13,5 +13,7 @@ namespace mvcLab1.Models
         public int DepartmentId { get; set; }
 
         public Department Department { get; set; }
+        public List<CrsResult> CrsResults { get; set; }
+
     }
 }

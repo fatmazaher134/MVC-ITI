@@ -338,3 +338,4 @@ H:\iti 4 month\MVC\Day1\Lab\mvcLab1\mvcLab1\bin\Debug\net9.0\zh-Hant\Microsoft.C
 H:\iti 4 month\MVC\Day1\Lab\mvcLab1\mvcLab1\obj\Debug\net9.0\compressed\se5y11nf2r-devepoo3hg.gz
 H:\iti 4 month\MVC\Day1\Lab\mvcLab1\mvcLab1\obj\Debug\net9.0\compressed\9h6jiu768g-gcze7m9erc.gz
 H:\iti 4 month\MVC\Day1\Lab\mvcLab1\mvcLab1\obj\Debug\net9.0\compressed\w4ljztm2qe-jk633vpdhk.gz
+H:\iti 4 month\MVC\Day1\Lab\mvcLab1\mvcLab1\obj\Debug\net9.0\mvcLab1.sourcelink.json

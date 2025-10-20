@@ -64,5 +64,13 @@ namespace mvcLab1.Repository
         {
             return _context.Courses.Where(c => c.DepartmentId == departmentId).ToList();
         }
+        public List<Course> GetCoursesByTraineeId(int traineeId)
+        {
+            List<Course> courses = _context.Courses
+                .Where(c => _context.CrsResults
+                    .Any(cr => cr.CourseId == c.Id && cr.TraineeId == traineeId))
+                .ToList();
+            return courses;
+        }
     }
 }

@@ -20,12 +20,13 @@ namespace mvcLab1
             builder.Services.AddSession(Options =>
             {
                 Options.IdleTimeout = TimeSpan.FromMinutes(30);
-                
+
             });
 
             builder.Services.AddScoped<ICourseRepository, CourseRepository>();
             builder.Services.AddScoped<IDepartmentReposetory, DepartmentRepository>();
             builder.Services.AddScoped<IInstructorRepository, InstructorRepository>();
+            builder.Services.AddScoped<ITraineeRepository, TraineeRepository>();
 
 
             var app = builder.Build();
@@ -42,6 +43,13 @@ namespace mvcLab1
             app.UseAuthorization();
 
             app.MapStaticAssets();
+
+
+            app.MapControllerRoute("Route", "trainee/{TrId:int}/{CId:int}",
+                new { controller = "Trainee", action = "Result" });
+
+
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}")

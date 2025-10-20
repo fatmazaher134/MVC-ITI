@@ -12,12 +12,16 @@ namespace mvcLab1.Repository
         }
         public void Add(Department entity)
         {
-            throw new NotImplementedException();
+            _context.Departments.Add(entity);
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            Department dept = _context.Departments.Find(id);
+            if (dept != null)
+            {
+                _context.Departments.Remove(dept);
+            }
         }
 
         public List<Department> GetAll(string include = null)
@@ -30,17 +34,21 @@ namespace mvcLab1.Repository
 
         public Department GetById(int id, string include = null)
         {
-            throw new NotImplementedException();
+            if (include != null)
+            {
+                _context.Departments.Include(d => d.Courses).ToList();
+            }
+            return _context.Departments.Find(id);
         }
 
         public void SaveChangesToDB()
         {
-            throw new NotImplementedException();
+            _context.SaveChanges();
         }
 
         public void Update(Department entity)
         {
-            throw new NotImplementedException();
+            _context.Departments.Update(entity);
         }
     }
 }
