@@ -1,0 +1,28 @@
+﻿@model List<TraineeNameWithCourseNameDegreeStatus>
+@{
+    ViewData["Title"] = "GetCoursesByTrainee";
+}
+
+<h1>Get Courses By Trainee @Model[0].TraineeName</h1>
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr style="text-align: center;">
+            <th>Course Name</th>
+            <th>Degree</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr style="text-align: center;">
+                <td>@item.CourseName</td>
+                <td>@item.Degree</td>
+                <td style="background-color: @item.Color !important;">@item.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>

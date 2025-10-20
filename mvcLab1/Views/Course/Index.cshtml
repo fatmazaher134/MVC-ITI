@@ -1,0 +1,39 @@
+﻿@model List<Course>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All Courses</h1>
+
+<br />
+<a class= "btn btn-success" asp-action="Add" asp-controller = "Course">Add New Course</a>
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Course ID</th>
+            <th>Course Name</th>
+            <th>Full mark degree</th>
+            <th>Minimum degree to pass</th>
+            <th>Hours</th>
+            <th>Department Name</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Degree</td>
+                <td>@item.MinDegree</td>
+                <td>@item.Hours</td>
+                <td>@item.Department.Name</td>
+                
+            </tr>
+        }
+
+    </tbody>
+

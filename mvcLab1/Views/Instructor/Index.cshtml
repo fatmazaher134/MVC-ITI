@@ -1,0 +1,47 @@
+﻿@model List<Instractore>
+
+<form action="/Instructor/Index" method="post" class="form form-control">
+    <label >Search by Name:</label>
+    <input type="text" name="searchByName" class="form-control" />
+</form>
+<h1>instructors List</h1>
+
+<br />
+<a class="btn btn-success" href="/Instructor/Add" >Add New Instructor</a>
+<br />
+
+
+<br />
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department Name</th>
+            <th>Course Name</th>
+            <th>Address</th>
+            <th>Salary</th>
+            <th>Image</th>
+            <th>Link to insPage</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var instructor in Model)
+        {
+            <tr>
+                <td>@instructor.Id</td>
+                <td>@instructor.Name</td>
+                <td>@instructor.Department.Name</td>
+                <td>@instructor.Course.Name</td>
+                <td>@instructor.Address</td>
+                <td>@instructor.Salary</td>
+                <td>
+                    <img src="~/@instructor.imageUrl" style="width: 150px"  />
+                </td>
+                <td>
+                    <a asp-controller="Instructor" asp-action="Details" asp-route-id="@instructor.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>

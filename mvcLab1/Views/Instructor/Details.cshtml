@@ -1,0 +1,18 @@
+﻿@model Instractore
+
+<h1>Instructor Details</h1>
+
+<div>
+    <h2>Name: @Model.Name</h2>
+    <p><strong>ID: </strong>@Model.Id</p>
+    <p><strong>Department:</strong> @Model.Department.Name</p>
+    <p><strong>Course:</strong> @Model.Course.Name</p>
+    <p><strong>Address:</strong> @Model.Address</p>
+    <p><strong>Salary:</strong> @Model.Salary</p>
+    <div> 
+        <img src="~/@Model.imageUrl" style = "width : 150px" />
+    </div>
+
+<a href="~/Instructor/Index?id=@Model.Id">Go to Instructors list</a>
+
+</div>

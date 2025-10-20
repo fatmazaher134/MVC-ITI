@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|h:\\iti 4 month\\mvc\\day1\\lab\\mvclab1\\mvclab1\\repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|solutionrelative:mvclab1\\repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|h:\\iti 4 month\\mvc\\day1\\lab\\mvclab1\\mvclab1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|solutionrelative:mvclab1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|h:\\iti 4 month\\mvc\\day1\\lab\\mvclab1\\mvclab1\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|solutionrelative:mvclab1\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|h:\\iti 4 month\\mvc\\day1\\lab\\mvclab1\\mvclab1\\repository\\ireposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|solutionrelative:mvclab1\\repository\\ireposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|h:\\iti 4 month\\mvc\\day1\\lab\\mvclab1\\mvclab1\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|solutionrelative:mvclab1\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|h:\\iti 4 month\\mvc\\day1\\lab\\mvclab1\\mvclab1\\repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|solutionrelative:mvclab1\\repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|h:\\iti 4 month\\mvc\\day1\\lab\\mvclab1\\mvclab1\\repository\\instructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|solutionrelative:mvclab1\\repository\\instructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|h:\\iti 4 month\\mvc\\day1\\lab\\mvclab1\\mvclab1\\repository\\idepartmentreposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1D1F64-FB76-42D4-88D7-070A1946A2F9}|mvcLab1\\mvcLab1.csproj|solutionrelative:mvclab1\\repository\\idepartmentreposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "mvcLab1\\Repository\\DepartmentRepository.cs",
+              "ToolTip": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\DepartmentRepository.cs*",
+              "RelativeToolTip": "mvcLab1\\Repository\\DepartmentRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T13:07:39.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InstructorRepository.cs",
+              "DocumentMoniker": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\InstructorRepository.cs",
+              "RelativeDocumentMoniker": "mvcLab1\\Repository\\InstructorRepository.cs",
+              "ToolTip": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\InstructorRepository.cs",
+              "RelativeToolTip": "mvcLab1\\Repository\\InstructorRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwD8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:44:46.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "mvcLab1\\Repository\\ICourseRepository.cs",
+              "ToolTip": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\ICourseRepository.cs",
+              "RelativeToolTip": "mvcLab1\\Repository\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:43:43.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "mvcLab1\\Controllers\\InstructorController.cs",
+              "ToolTip": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "mvcLab1\\Controllers\\InstructorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:42:08.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "mvcLab1\\Repository\\CourseRepository.cs",
+              "ToolTip": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\CourseRepository.cs",
+              "RelativeToolTip": "mvcLab1\\Repository\\CourseRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA4wEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:41:34.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IReposetory.cs",
+              "DocumentMoniker": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\IReposetory.cs",
+              "RelativeDocumentMoniker": "mvcLab1\\Repository\\IReposetory.cs",
+              "ToolTip": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\IReposetory.cs",
+              "RelativeToolTip": "mvcLab1\\Repository\\IReposetory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:43:22.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "mvcLab1\\Controllers\\CourseController.cs",
+              "ToolTip": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "mvcLab1\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:41:40.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDepartmentReposetory.cs",
+              "DocumentMoniker": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\IDepartmentReposetory.cs",
+              "RelativeDocumentMoniker": "mvcLab1\\Repository\\IDepartmentReposetory.cs",
+              "ToolTip": "H:\\iti 4 month\\MVC\\Day1\\Lab\\mvcLab1\\mvcLab1\\Repository\\IDepartmentReposetory.cs",
+              "RelativeToolTip": "mvcLab1\\Repository\\IDepartmentReposetory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:41:26.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿@model TraineeNameWithCourseNameDegreeStatus
+@{
+    ViewData["Title"] = "Result";
+}
+
+<h1>Result</h1>
+
+<div>
+    <h2>Trainee Name: @Model.TraineeName</h2>
+    <p><strong>Course Name: </strong>@Model.CourseName</p>
+    <p><strong>Degree:</strong> @Model.Degree</p>
+    <p style="color: @Model.Color"><strong>Status:</strong> @Model.Status</p>
+
+</div>
