@@ -14,7 +14,7 @@ namespace mvcLab1.Repository
         {
             _context.Departments.Add(entity);
         }
-
+        
         public void Delete(int id)
         {
             Department dept = _context.Departments.Find(id);

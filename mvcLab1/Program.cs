@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using mvcLab1.Models;
@@ -23,6 +24,16 @@ namespace mvcLab1
 
             });
 
+            builder.Services.AddIdentity<ApplicationIdentity, IdentityRole>(options =>
+            {
+                options.Password.RequireDigit = false;
+                options.Password.RequiredLength = 4;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+            })
+                .AddEntityFrameworkStores<ITIDBContext>();
+
             builder.Services.AddScoped<ICourseRepository, CourseRepository>();
             builder.Services.AddScoped<IDepartmentReposetory, DepartmentRepository>();
             builder.Services.AddScoped<IInstructorRepository, InstructorRepository>();
@@ -45,8 +56,8 @@ namespace mvcLab1
             app.MapStaticAssets();
 
 
-            app.MapControllerRoute("Route", "trainee/{TrId:int}/{CId:int}",
-                new { controller = "Trainee", action = "Result" });
+            //app.MapControllerRoute("Route", "trainee/{TrId:int}/{CId:int}",
+            //    new { controller = "Trainee", action = "Result" });
 
 
 

@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace mvcLab1.Models
 {
-    public class ITIDBContext : DbContext
+    public class ITIDBContext : IdentityDbContext<ApplicationIdentity>
     {
         public DbSet<Instractore> Instractores { get; set; }
         public DbSet<Trainee> Trainees { get; set; }
